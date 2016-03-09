@@ -11,17 +11,16 @@ We're tutoring a high school student in US History, and they have to memorize al
 
 In `js/script.js`, build a president constructor function with following attributes: `name`, `politicaParty`, `yearsInOffice`, and `homeState`.
 
-Add following methods to the prototype: 
+Add following methods to the prototype:
 
-+ `veto` - returns NO!
++ `veto` - returns "NO!"
 
 + `passBill` - returns "you can do that!"
 
 + `doCharity` - returns "I like to help people"
 
-+ `conductPressInterview` - "I am proud to be an american"
++ `conductPressInterview` - "I am proud to be an American"
 
-+ `sayHi` - return "Hi, my name is <name>, I am from <homestate>. I represent <politcalParty> and am from <homeState>."
++ `sayHi` - return "Hi, my name is `name`. I am from `homeState`. I represent the `politcalParty`s, and was in office `yearsInOffice`.
 
 Then create the following presidents: George Washington, Abraham Lincoln, Richard Nixon, and Jimmy Carter.
-
